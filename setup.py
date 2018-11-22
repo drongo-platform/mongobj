@@ -5,7 +5,7 @@ from setuptools import find_packages, setup
 setup(
     name='mongobj',
     version='1.0.0',
-    description='Mongo object mapping.',
+    description='Mongodb object mapping.',
     author='Sattvik Chakravarthy',
     author_email='sattvik@gmail.com',
     classifiers=[
