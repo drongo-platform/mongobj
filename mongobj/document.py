@@ -79,7 +79,7 @@ class Document(DocumentCommonMixIn):
 
     def __getattr__(self, name):
         if name in self.__attr_exceptions:
-            return super(Document, self).__getattr__(name)
+            return super(Document, self).__getattribute__(name)
 
         elif name in self.__resolve__:
             fld, klass, key = self.__resolve__[name]
